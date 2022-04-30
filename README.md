@@ -21,11 +21,11 @@
 
 <h3>데이터 전처리</h3>
 
-<h4>del_noimage_underwear.ipynb</h4>
+<h4>del_noimage_underwear_swimwear.ipynb</h4>
   
 - 제품과 제품의 구매이력들의 정보는 있으나, 해당하는 이미지가 없는 데이터들이 존재해서 데이터 전치리 요구됩니다.
 - 이미지가 없는 데이터의 article_id를 리스트에 저장 후, articles.csv/transactions.csv에 해당 상품 제거합니다.
-- 이미지 중에 underwear(bra, Underwear bottom 등) 해당되는 상품들은 articles.csv/transactions.csv에 상품 제거합니다.
+- 이미지 중에 underwear(bra, Underwear bottom 등)와 swimwear에 해당되는 상품들은 articles.csv/transactions.csv에 상품 제거합니다.
 - transactions 파일이 데이터(2천만개)가 있어서 처리하는데 곤란하여 2020-04 ~ 2020-06 데이터만 사용하기로 결정합니다.
 
 
