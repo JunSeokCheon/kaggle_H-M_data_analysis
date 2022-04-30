@@ -64,7 +64,7 @@
 
 <h3>데이터 분석</h3>
 
-<h4>age_sex_estimation.ipynb (진행 중)</h4>
+<h4>age_sex_estimation.ipynb</h4>
   
 - 나이 분포를 확인하고, 연령대를 구분합니다. (0 - 16~19, 1 - 20-29, 2 - 30-39, 3 - 40-49, 4 - 50-59, 5 - 60-)
 - transactions 정보를 확인하고 해당 손님이 어떤 유형(Ladieswear, Baby/Children, Divided, Menswear, Sport)을 많이 샀는지 파악하여 연령을 추정합니다.
