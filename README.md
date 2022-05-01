@@ -29,7 +29,7 @@
 - transactions 파일이 데이터(2천만개)가 있어서 처리하는데 곤란하여 2020-04 ~ 2020-06 데이터만 사용하기로 결정합니다.
 
 
-<h4>del_young_kid_sports.ipynb (진행 중)</h4> 
+<h4>del_young_kid_sports.ipynb</h4> 
   
 - 성별을 판단할 때, 해당 제품이 어떤 유형(Ladieswear, Baby/Children, Divided, Menswear, Sport)인지 보고 구매이력에서 해당 제품을 많이 산 기준으로 성별을 특정합니다.
 - Ladieswear와 Menswear를 제외한 유형은 성별을 판단하는데 혼동을 준다고 판단하여 제거합니다.
