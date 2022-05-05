@@ -31,7 +31,7 @@
 
 <h4>del_young_kid_sports.ipynb</h4> 
   
-- 성별을 판단할 때, 해당 제품이 어떤 유형(Ladieswear, Baby/Children, Divided, Menswear, Sport)인지 보고 구매이력에서 해당 제품을 많이 산 기준으로 성별을 특정합니다.
+- 성별을 판단할 때, 해당 제품이 어떤 유형(Ladieswear, Baby/Children, Divided, Menswear, Sport)인지 보고 구매이력에서 해당 제품을 많이 구매한 기준으로 성별을 특정합니다.
 - Ladieswear와 Menswear를 제외한 유형은 성별을 판단하는데 혼동을 준다고 판단하여 제거합니다.
 - 이 작업을 데이터 전처리 과정에서 실행하면 나중에 다른 유형의 분포를 볼수가 없고, 확장성이 떨어진다고 생각하여 전체 유형으로 특정하여 저장해서 필요한 정보들만 따로 저장하는 과정을 거칩니다.
 
@@ -47,7 +47,9 @@
 - articles.csv/transactions.csv에서 필요한 컬럼들을 merge/split 진행하여 각 제품의 article_id, 제품 이름, 제품 유형, 제품 색깔, 제품의 상세 설명, 가격데이터를 json 형태로 저장하고, 그에 맞는 이미지도 함께 저장하여 백/프론트로 넘겨줍니다.
 - price를 원(₩)화로 변경합니다.
 
-<h4>visualization.ipynb (진행 중)</h4>
+<h4>visualization.ipynb</h4>
+
+**plotly 그림이 안보이는 오류가 있어서 맨 위 google colab 링크를 첨부했습니다**
 
 - customers.csv/articles.csv/transactions.csv 각각의 컬럼들에 대하여 시각화 진행합니다.
 - 연령대/성별 TOP 5~10 제품 유형 비교 시각화(필수)
@@ -55,10 +57,11 @@
 - 연령대 별 선호하는 색 시각화(확장)
 - 계절 별 buyer 유형 시각화(확장)
 
-<h4>age_sex_estimation_data_extraction.ipynb (진행 중)</h4>
+<h4>age_sex_estimation_data_extraction.ipynb</h4>
 
 - 추천 상품에 대한 데이터를 준비하고 가공하는 작업을 진행합니다.
-- 각 제품의 article_id, 제품 이름, 제품 유형, 제품 색깔, 제품의 상세 설명, 가격데이터, 해당 연령대, 남성/여성 제를 json 형태로 저장하고, 그에 맞는 이미지도 함께 저장하여 백/프론트로 넘겨줍니다.
+- 셔츠(T-shirt) / 니트(Sweater) / 청바지(Trousers) / 치마(Skirt) / 신발(Sneakers) 카테 고리별로 데이터를 선정합니다.
+- 위 카테고리 제품의 article_id, 제품 이름, 제품 유형, 제품 색깔, 제품의 상세 설명, 가격데이터, 해당 연령대, 남성/여성 를 json 형태로 저장하고, 그에 맞는 이미지도 함께 저장하여 백/프론트로 넘겨줍니다.
 - price를 원(₩)화로 변경합니다.
 
 
