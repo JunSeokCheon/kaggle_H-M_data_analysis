@@ -71,7 +71,7 @@
 <h4>age_sex_estimation.ipynb</h4>
   
 - 나이 분포를 확인하고, 연령대를 구분합니다. (0 - 16~19, 1 - 20-29, 2 - 30-39, 3 - 40-49, 4 - 50-59, 5 - 60-)
-- transactions 정보를 확인하고 해당 손님이 어떤 유형(Ladieswear, Baby/Children, Divided, Menswear, Sport)을 많이 샀는지 파악하여 연령을 추정합니다.
+- transactions 정보를 확인하고 해당 손님이 어떤 유형(Ladieswear, Baby/Children, Divided, Menswear, Sport)을 많이 샀는지 파악하여 을 추정합니다.
 - 유형별로 최대 count가 같다면 애초에 여성 데이터가 많기 때문에 여성으로 판단했습니다.
 - transactions 파일이 데이터(2천만개)가 있어서 처리하는데 곤란하여 2020-04 ~ 2020-06 데이터만 사용하기로 결정합니다.
 - customers.csv/articles.csv/transactions.csv에서 merge/split 진행하여 연령대/유형별 article_id 리스트 데이터 프레임을 만들었습니다.
