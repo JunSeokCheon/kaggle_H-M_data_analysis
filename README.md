@@ -78,3 +78,19 @@
 - 연령대/유형별 TOP 10 제품의 article_id, age_id, attribute 데이터 프레임을 저장합니다.
 
 - - -
+
+- - -
+<h2>쇼핑몰 홈페이지 내 데이터 분석 결과물</h2>
+
+![image](https://user-images.githubusercontent.com/44998798/168041564-4ca50955-2082-4a80-90ba-1104ee310490.png)
+
+
+![image](https://user-images.githubusercontent.com/44998798/168041655-4106a62e-5827-455d-bc4c-27158bcde9d1.png)
+
+
+![image](https://user-images.githubusercontent.com/44998798/168041787-9380e0bd-7fde-4ee8-bec2-423afdb6b58c.png)
+
+
+<h2>로그인 시 사용자의 연령과 성별에 맞는 상품 추천</h2>
+
+![image](https://user-images.githubusercontent.com/44998798/168041998-c2bb8f43-a254-4d68-8408-192b393775cc.png)
